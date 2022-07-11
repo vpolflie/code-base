@@ -1,0 +1,8 @@
+# Module
+visualiser_module: TENSORBOARD
+
+# Visualisation parameters
+moving_average_lengths: [50, 100]
+number_of_bins: 10
+store_history: True
+images_per_row: 2

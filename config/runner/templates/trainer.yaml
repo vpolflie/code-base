@@ -1,0 +1,21 @@
+# Module
+runner_module: "TRAINER_RUNNER"
+
+# Standard Parameters
+train: True
+validation: True
+inference: False
+
+# Parameters
+epochs: 20
+evaluate_epochs: 1
+visualisations: ["train", "validation"]
+iterations_logger_update: 100
+iterations_visualisation_update: 100
+epochs_no_learning_rate_update: 1
+epochs_learning_rate_update: 1
+epochs_start_stochastic_weight_averaging: 10000000000000
+epochs_model_save: 1
+max_iterations_per_epoch: 1000000000000
+output: "trainer_output"
+use_hash: False

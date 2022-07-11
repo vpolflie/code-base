@@ -1,0 +1,20 @@
+# base
+base: pytorch/templates/pytorch
+
+# Segmentalist Config file
+model_module: DEEPLABV3P_MODEL
+
+# Parameters
+## TRAINING
+learning_rate: 0.01
+warm_up: True
+warm_up_iterations: 100
+
+## OUTPUT
+output_channels: 4
+
+# Load previous save
+save_optimizer: True
+load:
+load_optimizer: False
+update_config_loaded: False

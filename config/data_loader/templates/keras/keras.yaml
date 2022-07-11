@@ -1,0 +1,11 @@
+# Modules
+data_loader_module: ""
+
+# Data Set Configurations
+data_sets_train: ["example_data_set"]
+data_sets_validation: ["example_data_set"]
+data_sets_test: ["example_data_set"]
+
+# Parameters
+batch_size: 1
+workers: 1

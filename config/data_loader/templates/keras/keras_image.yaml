@@ -1,0 +1,8 @@
+# Base
+base: templates/keras/keras
+
+# Modules
+data_loader_module: "KERAS_IMAGE_SEGMENTATION"
+
+# Parameters
+image_size: 512

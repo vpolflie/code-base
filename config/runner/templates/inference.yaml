@@ -1,0 +1,19 @@
+# Module
+runner_module: "INFERENCE_RUNNER"
+
+# Standard Parameters
+train: False
+validation: False
+inference: True
+
+# Parameters
+folders: ["output_folder"]
+extensions: [".txt"]
+writer_methods: ["function"]
+number_of_writers: 4
+visualisations: ["inference"]
+max_length_queue: 50
+iterations_logger_update: 5
+iterations_visualisation_update: 10000
+output: "inference_output"
+use_hash: False

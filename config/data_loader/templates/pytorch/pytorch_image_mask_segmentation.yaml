@@ -1,0 +1,9 @@
+# Base
+base: templates/pytorch/pytorch_image_segmentation
+
+# Modules
+data_loader_module: "PYTORCH_IMAGE_MASK_SEGMENTATION"
+
+# Parameters
+segmentation_channels: 15
+copy_paste_data_augmentation: False

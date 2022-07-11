@@ -1,0 +1,11 @@
+# Base
+base: templates/inference
+
+# Module
+runner_module: "RASTER_INFERENCE_RUNNER"
+
+# Parameters
+extensions: [".tif"]
+writer_methods: ["write_segmentation_window_path"]
+number_of_writers: 4
+max_length_queue: 50

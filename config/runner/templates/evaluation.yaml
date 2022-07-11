@@ -1,0 +1,20 @@
+# Module
+runner_module: "EVALUATION_RUNNER"
+
+# Standard Parameters
+train: False
+validation: True
+inference: False
+
+# Parameters
+folders: ["output_folder"]
+extensions: [".txt"]
+writer_methods: ["function"]
+number_of_writers: 4
+visualisations: ["inference"]
+save_results: True
+max_length_queue: 50
+iterations_logger_update: 5
+iterations_visualisation_update: 10000
+output: "evaluation_output"
+use_hash: False

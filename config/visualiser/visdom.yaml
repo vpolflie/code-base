@@ -1,0 +1,11 @@
+# Module parameters
+visualiser_module: VISDOM
+
+# Visualisation parameters
+max_elements: 5
+moving_average_lengths: [50, 100, 1000]
+number_of_bins: 10
+store_history: True
+images_per_row: 1
+xmin: -5
+xmax: 5

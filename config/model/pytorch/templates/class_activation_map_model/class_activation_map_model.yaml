@@ -1,0 +1,17 @@
+# base
+base: pytorch/templates/pytorch
+
+# This is an example config of a model
+# Python module path
+model_module: "CLASS_ACTIVATION_MAP_MODEL"
+
+# Model specific parameters
+input_function: convert_to_pytorch
+input_channels: 3
+output_channels: 3
+base_convolutional_filters: 32
+layers: 4
+learning_rate: 0.000001
+
+# Load possible model
+load:

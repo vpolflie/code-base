@@ -1,0 +1,8 @@
+# Base Template
+base: templates/pytorch/pytorch_image_segmentation
+
+# Modules
+data_loader_module: "PYTORCH_RASTER_IMAGE_SEGMENTATION"
+
+# Parameters
+overlap: 50

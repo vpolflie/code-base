@@ -1,0 +1,8 @@
+# Base
+base: templates/keras/keras_image
+
+# Modules
+data_loader_module: "KERAS_IMAGE_SEGMENTATION"
+
+# Parameters
+segmentation_channels: 15

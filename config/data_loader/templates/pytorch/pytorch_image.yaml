@@ -1,0 +1,11 @@
+# Base
+base: templates/pytorch/pytorch
+
+# Modules
+data_loader_module: "PYTORCH_IMAGE_SEGMENTATION"
+
+# Parameters
+image_size: 512
+mean: [0.485, 0.456, 0.406]
+std: [0.229, 0.224, 0.225]
+normalize: False

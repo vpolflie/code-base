@@ -1,0 +1,14 @@
+# This is the is a configuration file to the ISPRS_potsdam data set:
+# https://www2.isprs.org/commissions/comm2/wg4/benchmark/2d-sem-label-potsdam/
+# Run the following scripts to get the necessary folder structure:
+#
+# bash scripts/ISPRS_potsdam/unpack.sh
+# python scripts/ISPRS_potsdam/unpack_raster_data.py
+
+path: "data/example"
+structure: coco
+seed: 0
+split: 0
+extensions: [".png", ".png"]
+file_types: ["images", "segmentations"]
+additional_information: Data set containing 3 segmentation classes
